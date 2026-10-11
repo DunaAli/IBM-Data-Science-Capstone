@@ -25,3 +25,14 @@ Historical sample: 90 launches; 83 prepared model features. The modeling noteboo
 
 ## Limitations
 The supplied course lab templates had no executed outputs, so this repository contains independently written **reproductions based on prepared datasets**, not falsely labeled completed original API and Wikipedia scraping labs. Folium proximity distances to roads/rail/coast have not been calculated. The report is not guaranteed to satisfy every grading criterion.
+
+## Execution status (2026-10-11)
+All five notebooks were executed successfully and their code outputs were saved. The machine-learning notebook reports 15/18 = 83.33% held-out accuracy for its selected model under the recorded split and grid-search settings. Plotly chart HTML files are exported reproducible outputs from the same dataset; the Dash Python app itself has not been launched in this environment. API/web scraping and geographic proximity measurements remain incomplete and are **not claimed as finished**.
+
+## Notebook links
+- [Data preparation](01_Data_Collection_and_Wrangling.ipynb)
+- [EDA](02_EDA_Visualization.ipynb)
+- [SQL](03_SQL_Analysis.ipynb)
+- [Folium](04_Folium_Launch_Sites.ipynb)
+- [Classification](05_Machine_Learning.ipynb)
+- [Dash application source](SpaceX_Dash_App.py)
